@@ -25,7 +25,7 @@
 					<div class="row sh_page rounded">
 						<div class="col-lg-6 col-md-12">
 							<div class="card mb-4  animate__animated animate__fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-								<a href="single-blog.html"><img src="/public/themes/frontend/assets/img/blog/blog_1.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_1"> </a>
+								<a href="single-blog.html"><img src="../../../themes/frontend/assets/img/blog/blog_1.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_1"> </a>
 								<div class="card-body p-0 mt-3">
 									<div class="blog_subtitle">
 										<span class="font-weight-bolder pr-2"><i class="far fa-calendar-alt mr-2"></i>Oct 27 2020</span>
@@ -42,7 +42,7 @@
 						</div>
 						<div class="col-lg-6 col-md-12">
 							<div class="card mb-4  animate__animated animate__fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-								<a href="single-blog.html"><img src="/public/themes/frontend/assets/img/blog/blog_3.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_3"></a>
+								<a href="single-blog.html"><img src="../../../themes/frontend/assets/img/blog/blog_3.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_3"></a>
 								<div class="card-body p-0 mt-3">
 									<div class="blog_subtitle">
 										<span class="font-weight-bolder pr-2"><i class="far fa-calendar-alt mr-2"></i>Oct 27 2020</span>
@@ -59,7 +59,7 @@
 						</div>
 						<div class="col-lg-6 col-md-12">
 							<div class="card mb-4  animate__animated animate__fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-								<a href="single-blog.html"><img src="/public/themes/frontend/assets/img/blog/blog_4.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_4"></a>
+								<a href="single-blog.html"><img src="../../../themes/frontend/assets/img/blog/blog_4.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_4"></a>
 								<div class="card-body p-0 mt-3">
 									<div class="blog_subtitle">
 										<span class="font-weight-bolder pr-2"><i class="far fa-calendar-alt mr-2"></i>Oct 27 2020</span>
@@ -76,7 +76,7 @@
 						</div>
 						<div class="col-lg-6 col-md-12">
 							<div class="card mb-4  animate__animated animate__fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-								<a href="single-blog.html"><img src="/public/themes/frontend/assets/img/blog/blog_5.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_5"></a>
+								<a href="single-blog.html"><img src="../../../themes/frontend/assets/img/blog/blog_5.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_5"></a>
 								<div class="card-body p-0 mt-3">
 									<div class="blog_subtitle">
 										<span class="font-weight-bolder pr-2"><i class="far fa-calendar-alt mr-2"></i>Oct 27 2020</span>
@@ -107,7 +107,7 @@
 
 							    	<li class=" d-block border-bottom">
 							    		<div class="media pb-3">
-							    			<div class="pr-2"><a href="single-blog.html"><img src="/public/themes/frontend/assets/img/blog/blog_1.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_1"></a></div>
+							    			<div class="pr-2"><a href="single-blog.html"><img src="../../../themes/frontend/assets/img/blog/blog_1.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_1"></a></div>
 											<div class="media-body">
 											    <h6 class="mt-0 f_15 font-weight-bold"><a href="single-blog.html">Nullam in neque vitae arcu auctor dignissim feugiat erat.</a></h6>
 											    <p><span class="font-weight-bolder pr-2"><i class="far fa-calendar-alt mr-2"></i>Oct 27 2020</span></p>
@@ -116,7 +116,7 @@
 							    	</li>
 							    	<li class=" d-block border-bottom ">
 							    		<div class="media py-3">
-							    			<div class="pr-2"><a href="single-blog.html"><img src="/public/themes/frontend/assets/img/blog/blog_3.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_3"></a></div>
+							    			<div class="pr-2"><a href="single-blog.html"><img src="../../../themes/frontend/assets/img/blog/blog_3.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_3"></a></div>
 										    <div class="media-body">
 											    <h6 class="mt-0 f_15 font-weight-bold"><a href="single-blog.html">Vestibulum lobortis bibendum sollicitudin lectus.</a></h6>
 											    <p><span class="font-weight-bolder pr-2"><i class="far fa-calendar-alt mr-2"></i>Oct 27 2020</span></p>
@@ -125,7 +125,7 @@
 							    	</li>
 							    	<li class=" d-block border-bottom">
 							    		<div class="media py-3">
-							    			<div class="pr-2"><a href="single-blog.html"><img src="/public/themes/frontend/assets/img/blog/blog_4.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_4"></a></div>
+							    			<div class="pr-2"><a href="single-blog.html"><img src="../../../themes/frontend/assets/img/blog/blog_4.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_4"></a></div>
 											<div class="media-body">
 											    <h6 class="mt-0 f_15 font-weight-bold"> <a href="single-blog.html">eget sollicitudin cursus Phasellus quis lorem mi Vestibulum</a></h6>
 											    <p><span class="font-weight-bolder pr-2"><i class="far fa-calendar-alt mr-2"></i>Oct 27 2020</span></p>
@@ -134,7 +134,7 @@
 							    	</li>
 							    	<li class="d-block ">
 							    		<div class="media pt-3">
-							    			<div class="pr-2"><a href="single-blog.html"><img src="/public/themes/frontend/assets/img/blog/blog_5.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_5"></a></div>
+							    			<div class="pr-2"><a href="single-blog.html"><img src="../../../themes/frontend/assets/img/blog/blog_5.jpg" class="fst-image mx-auto d-block img-fluid rounded" alt="blog_5"></a></div>
 											<div class="media-body">
 											    <h6 class="mt-0 f_15 font-weight-bold"><a href="single-blog.html">bibendum lacus sit amet ullamcorper vestibulum.</a> </h6>
 											    <p><span class="font-weight-bolder pr-2"><i class="far fa-calendar-alt mr-2"></i>Oct 27 2020</span></p>

@@ -15,7 +15,7 @@
                     <div class="col-12 blog_">
                         <div class="d-flex">
                             <div class="blog_image col-6 px-0">
-                                <a href="single-blog.html"><img src="/public/themes/frontend/assets/img/blog/blog_1.jpg" class="fst-image img-fluid rounded" alt="blog_1"></a>	
+                                <a href="single-blog.html"><img src="../../../../themes/frontend/assets/img/blog/blog_1.jpg" class="fst-image img-fluid rounded" alt="blog_1"></a>	
                                 <div class="date text-center p-2 text-light font-weight-bold">
                                     <div>09</div>
                                     <div>oct</div>
@@ -44,7 +44,7 @@
                     <div class="col-12 blog_">
                         <div class="d-flex">
                             <div class="blog_image col-6 px-0">
-                                <a href="single-blog.html" class="d-block"><img src="/public/themes/frontend/assets/img/blog/blog_2.jpg" class="fst-image img-fluid rounded"  alt="blog_2"></a>	
+                                <a href="single-blog.html" class="d-block"><img src="../../../../themes/frontend/assets/img/blog/blog_2.jpg" class="fst-image img-fluid rounded"  alt="blog_2"></a>	
                                 <div class="date text-center p-2 text-light font-weight-bold">
                                     <div>09</div>
                                     <div>oct</div>
@@ -73,7 +73,7 @@
                     <div class="col-12 blog_">
                         <div class="d-flex">
                             <div class="blog_image col-6 px-0">
-                                <a href="single-blog.html"><img src="/public/themes/frontend/assets/img/blog/blog_3.jpg" class="fst-image img-fluid rounded" alt="blog_3"></a>		
+                                <a href="single-blog.html"><img src="../../../../themes/frontend/assets/img/blog/blog_3.jpg" class="fst-image img-fluid rounded" alt="blog_3"></a>		
                                 <div class="date text-center p-2 text-light font-weight-bold">
                                     <div>09</div>
                                     <div>oct</div>

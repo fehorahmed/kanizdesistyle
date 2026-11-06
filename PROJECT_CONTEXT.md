@@ -104,3 +104,26 @@ Kaniz's Desi Style-এর Laravel backend, Vue storefront এবং Blade-ভি
 ## 9. এই সেশনের পরিবর্তন
 
 শুধু এই context document তৈরি করা হয়েছে। Application code, configuration, database, credentials বা deployed site পরিবর্তন করা হয়নি।
+
+## 10. পরবর্তী setup ও build update (2026-11-06)
+
+- আগের environment observations এখন আংশিক পুরোনো: ব্যবহারকারী `.env1` → `.env` করেছেন এবং credentials ঠিক করার পর database connection ও settings table যাচাই সফল হয়েছে।
+- Node.js 22.23.4 ও npm 10.9.9 project-local `.local-tools/node/`-এ আছে; global PATH-এ যোগ করা হয়নি। `PATH="$PWD/.local-tools/node/bin:$PATH" npm run build` দিয়ে build করা যায়।
+- `npm ci` দিয়ে lock file অনুযায়ী 217 packages install হয়েছে; `npm ls --depth=0` সফল। `.local-tools/` Git ignore করা আছে।
+- Vue template-এর `/public/themes/...` ও `/public/img/...` references বাস্তব source asset-এর relative path করা হয়েছে (BlogPage, AboutPage, Home/BlogSection, Header, product/ProductTabs), যাতে Vite asset bundle করতে পারে।
+- Production build সফল (321 modules)। Non-blocking warnings: পুরোনো Browserslist data এবং বড় JS chunk।
+- PhpWord/IOFactory ReportController-এ import আছে, কিন্তু কার্যকর ব্যবহার পাওয়া যায়নি; `phpoffice/phpword` install করা হয়নি।
+
+## 11. Local browser check (2026-11-06)
+
+- Local development-এর command: `php -S 127.0.0.1:8000 local-server.php`। Root entry-কে সরাসরি router হিসেবে ব্যবহার করার আগের নির্দেশনার পরিবর্তে এই command ব্যবহার করুন। [local-server.php](local-server.php) theme/media assets এবং `public/build`-এর generated assets পরিবেশন করে।
+- Browser-এ homepage, `/products/perfume`, `/product/details/bourbon-100-ml`, `/blog`, `/login` render হয়েছে; tested routes HTTP 200। Built module JS এবং styles লোড হচ্ছে।
+- Homepage-এ 5টি failed image-এর source `/null` পাওয়া গেছে। Guest session-এ user fetch 401 এবং product page-এ কম slide-এর Swiper warning দেখা গেছে। Login submission, checkout/payment/admin workflows পরীক্ষা করা হয়নি।
+
+## 12. Image path rollback (2026-11-06)
+
+ব্যবহারকারীর নির্দেশে section 10-এর Vue image-path changes ফিরিয়ে দেওয়া হয়েছে: AboutPage, BlogPage, Home/BlogSection, Header ও product/ProductTabs-এর মোট 24টি reference আবার মূল `/public/themes/...` বা `/public/img/...`। Rollback-এর পরে build চালানো হয়নি; আগের generated build অপরিবর্তিত আছে। Source থেকে নতুন build করলে আগের unresolved asset error আবার হতে পারে।
+
+## 13. Image links fixed again (2026-11-06)
+
+ব্যবহারকারীর নতুন অনুমোদনে section 12-এর rollback বাতিল: একই 5টি Vue file-এর 24টি `/public/themes/...` ও `/public/img/...` reference বাস্তব asset-এর relative path করা হয়েছে। প্রতিটি source asset-এর অস্তিত্ব যাচাই করা হয়েছে। Production build সফল (321 modules); Browserslist এবং বড় chunk-এর non-blocking warnings রয়ে গেছে।

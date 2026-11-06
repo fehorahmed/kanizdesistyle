@@ -119,7 +119,7 @@
               <div class="user-data flex-shrink-0">
                 <div class="user-img user-img-rev w-12 h-12 rounded-full overflow-hidden">
                   <img
-                    src="/public/img/user_low.png"
+                    src="../../../../img/user_low.png"
                     alt="avatar"
                     class="w-full h-full object-cover"
                   />

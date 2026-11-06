@@ -6,7 +6,7 @@
                 <div class="container custom_container header-top-container">
                     <div class="row">
                         <div class="col-xl-2 col-lg-2 col-3">
-                            <div class="text-left header-top-left pt-2"><router-link :to="{ name: 'home' }"><img src="/public/img/logo.jpg" style="width: 69px;" class="img-responsive img"  alt="Ecommerce"></router-link></div>
+                            <div class="text-left header-top-left pt-2"><router-link :to="{ name: 'home' }"><img src="../../../img/logo.jpg" style="width: 69px;" class="img-responsive img"  alt="Ecommerce"></router-link></div>
                         </div> 
                         <div class="col-xl-10 py-3 col-lg-10 col-9 head-search">
                             <div class="d-flex navbar row">

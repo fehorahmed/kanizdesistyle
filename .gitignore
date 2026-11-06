@@ -48,3 +48,6 @@ pnpm-debug.log*
 # OS-generated files
 .DS_Store
 Thumbs.db
+
+# Project-local Node.js and npm cache
+/.local-tools/
