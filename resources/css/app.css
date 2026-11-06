@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.collapse {
+    visibility: initial;
+}
+
+/* Apertura Bold */
+@font-face {
+    font-family: "apertura";
+    src: url("../fonts/Apertura_Bold.woff2") format("woff2"),
+        url("../fonts/Apertura_Bold.woff") format("woff"),
+        url("../fonts/Apertura_Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Apertura Medium */
+@font-face {
+    font-family: "apertura";
+    src: url("../fonts/Apertura_Medium.woff2") format("woff2"),
+        url("../fonts/Apertura_Medium.woff") format("woff"),
+        url("../fonts/Apertura_Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Apertura Regular */
+@font-face {
+    font-family: "apertura";
+    src: url("../fonts/Apertura_Regular.woff2") format("woff2"),
+        url("../fonts/Apertura_Regular.woff") format("woff"),
+        url("../fonts/Apertura_Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Gelica Bold */
+@font-face {
+    font-family: "gelica";
+    src: url("../fonts/Gelica-Bold.woff2") format("woff2"),
+        url("../fonts/Gelica-Bold.woff") format("woff"),
+        url("../fonts/Gelica-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Gelica Medium */
+@font-face {
+    font-family: "gelica";
+    src: url("../fonts/Gelica-Medium.woff2") format("woff2"),
+        url("../fonts/Gelica-Medium.woff") format("woff"),
+        url("../fonts/Gelica-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Gelica Regular */
+@font-face {
+    font-family: "gelica";
+    src: url("../fonts/Gelica-Regular.woff2") format("woff2"),
+        url("../fonts/Gelica-Regular.woff") format("woff"),
+        url("../fonts/Gelica-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "apertura", sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "gelica", sans-serif;
+}
+.Vue-Toastification__toast--success {
+    background-color: var(--primary-color) !important;
+    color: #fff;
+}
